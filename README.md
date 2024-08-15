@@ -23,10 +23,6 @@ This script contains the core implementation of the word-finding algorithm:
 3. **Functionality**:
    - **`findWords(wordGrid, dictionary)`**: Main function to find all words from the dictionary that are present in the letter grid.
 
-### `models.js`
-
-Defines Mongoose schemas and models for the database, including `User` and `Payment` schemas, using a MongoDB connection.
-
 ### `findWords_tests.js`
 
 Contains test cases for validating the functionality of `findWords` using the Mocha testing framework with Chai assertions. Tests include:
